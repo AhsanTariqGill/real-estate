@@ -24,6 +24,7 @@ export default function Header() {
                 <Link to='/sign-in'>
                 <li className=' text-slate-700 hover:text-slate-400'>Sign In</li>
                 </Link>
+{/*               header completed. */}
             </ul>
         </div>
     </header>
