@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+// generating a model for our database variables to define their properties.
 const userSchema =  mongoose.Schema({
     username:{
         type: String,
