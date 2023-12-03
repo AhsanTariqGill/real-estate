@@ -1,3 +1,4 @@
+// file to make connection to the database and defining all the routes.
 import express, { json } from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
