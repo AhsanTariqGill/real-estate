@@ -8,6 +8,7 @@ export const signup = async (req,res, next)=> {
     const hashedPassword = bcryptjs.hashSync(password, 10)
     const newUser = new User({username,email,password: hashedPassword});
     try{
+        // error handling in sending data
         await newUser.save();
         res.status(201).json('User created successfully!');
     }catch(error)
@@ -16,6 +17,7 @@ export const signup = async (req,res, next)=> {
     }
    
 }
+<<<<<<< HEAD
 export const signin = async (req, res, next) =>{
     const {email, password} = req.body;
     try{
@@ -33,3 +35,5 @@ export const signin = async (req, res, next) =>{
         next(error)
     }
 }
+=======
+>>>>>>> f0eead8044086c9ad72c8e9cb0e50c25ba36affb
