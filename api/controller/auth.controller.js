@@ -17,7 +17,7 @@ export const signup = async (req,res, next)=> {
     }
    
 }
-<<<<<<< HEAD
+
 export const signin = async (req, res, next) =>{
     const {email, password} = req.body;
     try{
@@ -35,5 +35,4 @@ export const signin = async (req, res, next) =>{
         next(error)
     }
 }
-=======
->>>>>>> f0eead8044086c9ad72c8e9cb0e50c25ba36affb
+
