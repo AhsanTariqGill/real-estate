@@ -17,7 +17,7 @@ export const signup = async (req,res, next)=> {
     }
    
 }
-
+// Sign In routes have been added.
 export const signin = async (req, res, next) =>{
     const {email, password} = req.body;
     try{
