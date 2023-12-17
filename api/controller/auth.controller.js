@@ -35,7 +35,7 @@ export const signin = async (req, res, next) => {
       next(error);
     }
   };
-
+// routes for google auth
   export const google = async (req, res, next) => {
     try {
       const user = await User.findOne({ email: req.body.email });
